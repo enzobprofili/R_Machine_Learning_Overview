@@ -1,9 +1,10 @@
 ---
-title: "Machine Learning Overview with Lending Club Dataset"
+title: Machine Learning Overview with Lending Club Dataset\thanks{I am very thankful to Robert McDonald and the Kellogg School of Management for the support and the help in writing this guide.}
 author: "Enzo Profili"
 date: "`r Sys.Date()`"
 output: 
   bookdown::pdf_document2:
+    template: null
     toc: true
     toc_depth: 2
     fig_caption: yes
@@ -12,11 +13,13 @@ header-includes:
    - \usepackage{float}
    - \floatplacement{figure}{H}
    - \usepackage{url}
+   - \usepackage{array}
 colorlinks: true
 linkcolor: 'cyan'
 geometry: "margin=1.25in"
 fontsize: 12pt
 bibliography: "MLoverview.bib"
+csl: "apa.csl"
 ---
 
 ```{r setup, include=FALSE, warning = FALSE, message=FALSE}
